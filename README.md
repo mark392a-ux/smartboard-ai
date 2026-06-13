@@ -160,16 +160,6 @@ First launch trains the CNN (~2 min on CPU) and saves `smartboard_model.h5`. Eve
 
 ---
 
-## Deploying to Streamlit Cloud
-
-1. Push repo to GitHub — `.python-version` pins Python 3.11 automatically
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
-3. Select repo · branch `main` · file `app.py` → **Deploy**
-
-> Commit `smartboard_model.h5` to skip model training on each cold start.
-
----
-
 ## License
 
-MIT
+MIT — free to use, modify, and deploy.
